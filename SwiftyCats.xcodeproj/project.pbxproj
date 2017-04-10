@@ -60,7 +60,6 @@
 		3FFC69A21E6B9C2700F321C2 /* SwiftyCats */ = {
 			isa = PBXGroup;
 			children = (
-				3FFC69A31E6B9C2700F321C2 /* AppDelegate.swift */,
 				3FFC69B81E6B9FE100F321C2 /* CollectionViewController.swift */,
 				3FFC69BA1E6BA0F200F321C2 /* PhotoCell.swift */,
 				3FFC69BC1E6BA0FE00F321C2 /* Photo.swift */,
@@ -69,6 +68,7 @@
 				3FFC69AF1E6B9C2700F321C2 /* LaunchScreen.storyboard */,
 				3FFC69B21E6B9C2700F321C2 /* Info.plist */,
 				3FFC69AA1E6B9C2700F321C2 /* SwiftyCats.xcdatamodeld */,
+				3FFC69A31E6B9C2700F321C2 /* AppDelegate.swift */,
 			);
 			path = SwiftyCats;
 			sourceTree = "<group>";
@@ -100,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Callum Davies";
 				TargetAttributes = {
 					3FFC699F1E6B9C2700F321C2 = {
@@ -193,6 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -242,6 +243,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,6 +311,7 @@
 				3FFC69B71E6B9C2700F321C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
